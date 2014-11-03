@@ -37,6 +37,7 @@ public class semiDao {
 			dto.setList_price(rs.getInt("price"));
 			dto.setList_sell_price(rs.getInt("sprice"));
 			dto.setList_des(rs.getInt("des"));
+			System.out.println("dto ют╥б ok");
 			
 			sql1 = "update tstock set count = count+ ? where code=?";
 			pstmt = con.prepareStatement(sql1);

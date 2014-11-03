@@ -8,8 +8,8 @@ public class DBConnectionMgr {
 	// Collection(Vector) : 객체 모두 소진 시 연결 객체를 새로 만들어야 한다
     private Vector connections = new Vector(10);
     private String _driver = "org.gjt.mm.mysql.Driver",
-    _url = "jdbc:mysql://192.168.10.13:3306/testboard",
-    _user = "root", _password = "1111";
+    _url = "jdbc:mysql://192.168.10.49:3306/testboard",
+    _user = "root", _password = "1234";
     private boolean _traceOn = false;
     private boolean initialized = false;
     private int _openConnections = 10;
