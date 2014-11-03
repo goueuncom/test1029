@@ -112,7 +112,7 @@
 	
 	<div id="tabs-4">
 		<div style="float: left">	
-		<form method="post" action="input.jsp">
+		<form method="post" action="input_DBCP.jsp">
 		<input class="css1" type="submit" value="입고입력" />
 		</form>
 		</div>

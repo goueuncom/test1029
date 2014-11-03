@@ -29,7 +29,7 @@ Connection conn = null;                                        // null로 초기화 
 Statement pstmt = null;
 
 try{
-	String url = "jdbc:mysql://localhost:3306/testboard";        // 사용하려는 데이터베이스명을 포함한 URL 기술
+	String url = "jdbc:mysql://192.168.10.49:3306/testboard";        // 사용하려는 데이터베이스명을 포함한 URL 기술
 	String id = "root";                                                    // 사용자 계정
 	String pw = "1234";                                                // 사용자 계정의 패스워드
 
